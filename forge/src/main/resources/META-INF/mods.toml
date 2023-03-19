@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "GPL 3"
+issueTrackerURL = "https://www.github.com/toyhippogriff/CoalNugget/issues"
+
+[[mods]]
+modId = "coalnugget"
+version = "${version}"
+displayName = "Coal Nugget"
+authors = "toyhippogriff"
+description = '''
+Craft coal or charcoal into 8 nuggets which smelt one item each.
+'''
+logoFile = "assets/coalnugget/icon.png"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/coal-nugget"
+
+[[dependencies.coalnugget]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.coalnugget]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.coalnugget]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.10.86,)"
+ordering = "AFTER"
+side = "BOTH"
