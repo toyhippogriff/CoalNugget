@@ -22,13 +22,13 @@ side = "BOTH"
 [[dependencies.coalnugget]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.4,)"
+versionRange = "[1.20,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.coalnugget]]
 modId = "architectury"
 mandatory = true
-versionRange = "[8.1.73,)"
+versionRange = "[9.1,)"
 ordering = "AFTER"
 side = "BOTH"
