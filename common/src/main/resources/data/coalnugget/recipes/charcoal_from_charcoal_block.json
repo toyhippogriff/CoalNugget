@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "minecraft:charcoal",
-  "ingredients": [
-    {
-      "item": "coalnugget:charcoal_block"
+    "type": "minecraft:crafting_shapeless",
+    "group": "minecraft:charcoal",
+    "ingredients": [
+        {
+            "item": "coalnugget:charcoal_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:charcoal",
+        "count": 9
     }
-  ],
-  "result": {
-    "item": "minecraft:charcoal",
-    "count": 9
-  }
 }
