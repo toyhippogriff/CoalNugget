@@ -1,35 +1,35 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "coalnugget:coal_from_nuggets"
-    ]
-  },
-  "criteria": {
-    "has_at_least_8_coal_nugget": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "coalnugget:coal_nugget",
-            "count": {
-              "min": 8
-            }
-          }
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "coalnugget:coal_from_nuggets"
         ]
-      }
     },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "coalnugget:coal_from_nuggets"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "has_at_least_8_coal_nugget",
-      "has_the_recipe"
+    "criteria": {
+        "has_at_least_8_coal_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "coalnugget:coal_nugget",
+                        "count": {
+                            "min": 8
+                        }
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "coalnugget:coal_from_nuggets"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_at_least_8_coal_nugget",
+            "has_the_recipe"
+        ]
     ]
-  ]
 }
