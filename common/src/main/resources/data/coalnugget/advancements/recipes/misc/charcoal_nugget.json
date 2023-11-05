@@ -1,32 +1,32 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "coalnugget:charcoal_nugget"
-    ]
-  },
-  "criteria": {
-    "has_charcoal": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:charcoal"
-          }
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "coalnugget:charcoal_nugget"
         ]
-      }
     },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "coalnugget:charcoal_nugget"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "has_charcoal",
-      "has_the_recipe"
+    "criteria": {
+        "has_charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:charcoal"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "coalnugget:charcoal_nugget"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_charcoal",
+            "has_the_recipe"
+        ]
     ]
-  ]
 }
