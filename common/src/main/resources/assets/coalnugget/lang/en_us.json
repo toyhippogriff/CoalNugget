@@ -2,5 +2,5 @@
     "block.coalnugget.charcoal_block": "Block of Charcoal",
     "item.coalnugget.coal_nugget": "Coal Nugget",
     "item.coalnugget.charcoal_nugget": "Charcoal Nugget",
-    "itemGroup.coalnugget.items": "Coal Nugget"
+    "itemGroup.coalnugget.creative_tab": "Coal Nugget"
 }

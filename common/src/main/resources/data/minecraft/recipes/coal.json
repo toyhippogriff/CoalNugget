@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "coal",
-  "ingredients": [
-    {
-      "item": "minecraft:coal_block"
+    "type": "minecraft:crafting_shapeless",
+    "group": "coal",
+    "ingredients": [
+        {
+            "item": "minecraft:coal_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:coal",
+        "count": 9
     }
-  ],
-  "result": {
-    "item": "minecraft:coal",
-    "count": 9
-  }
 }

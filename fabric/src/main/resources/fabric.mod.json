@@ -1,28 +1,28 @@
 {
-  "schemaVersion": 1,
-  "id": "coalnugget",
-  "version": "${version}",
-  "name": "Coal Nugget",
-  "description": "Craft coal or charcoal into 8 nuggets which smelt one item each.",
-  "authors": [
-    "toyhippogriff"
-  ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/coal-nugget",
-    "sources": "https://www.github.com/toyhippogriff/CoalNugget",
-    "issues": "https://www.github.com/toyhippogriff/CoalNugget/issues"
-  },
-  "license": "GPL 3",
-  "icon": "assets/coalnugget/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "toyhippogriff.coalnugget.fabric.CoalNuggetFabric"
-    ]
-  },
-  "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.19.4",
-    "architectury": ">=8.1.73"
-  }
+    "schemaVersion": 1,
+    "id": "coalnugget",
+    "version": "${version}",
+    "name": "Coal Nugget",
+    "description": "Craft coal or charcoal into 8 nuggets which smelt one item each.",
+    "authors": [
+        "toyhippogriff"
+    ],
+    "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/coal-nugget",
+        "sources": "https://www.github.com/toyhippogriff/CoalNugget",
+        "issues": "https://www.github.com/toyhippogriff/CoalNugget/issues"
+    },
+    "license": "GPL 3",
+    "icon": "assets/coalnugget/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "toyhippogriff.coalnugget.fabric.CoalNuggetFabric"
+        ]
+    },
+    "depends": {
+        "fabric": "*",
+        "minecraft": ">=1.19.4",
+        "architectury": ">=8.1.73"
+    }
 }

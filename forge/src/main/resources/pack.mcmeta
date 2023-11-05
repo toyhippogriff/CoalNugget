@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "description": "Coal Nugget",
-    "pack_format": 13
-  }
+    "pack": {
+        "description": "Coal Nugget resources",
+        "pack_format": 13
+    }
 }
