@@ -11,6 +11,6 @@ public class CoalNugget
     {
         CoalNuggetBlocks.REGISTRY.register();
         CoalNuggetItems.REGISTRY.register();
-        CoalNuggetItems.CREATIVE_MODE_TABS.register();
+        CoalNuggetItems.CREATIVE_TAB_REGISTRY.register();
     }
 }

@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:charcoal"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:charcoal"
+        }
+    },
+    "result": {
+        "item": "coalnugget:charcoal_block"
     }
-  },
-  "result": {
-    "item": "coalnugget:charcoal_block"
-  }
 }
